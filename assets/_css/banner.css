@@ -1,0 +1,41 @@
+
+.img-responsive {
+  display:block; max-width:100%; height:auto;
+}
+
+#banner-body {
+  position: relative;
+}
+
+#hm-banner-cta {
+  position: absolute;
+  left: 80px;
+  top: 480px;
+}
+
+.hm-banner-cta {
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  text-shadow: 0px 1px 0px #6e686e;
+  font-family: Arial;
+  font-size: 25px;
+  background: #23b834;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+a.hm-banner-cta {
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.hm-banner-cta:hover {
+  background: #20bf45;
+  text-decoration: none;
+}
+
+.hm-banner-cta:active {
+  top: 2px;
+}
