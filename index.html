@@ -62,23 +62,17 @@
   <div id="banner-body">
     <ul id="banner-container">
       <li id="banner-main">
-        <div class="banner-image">
-            <a href="/about-us.html"><img src="http://www.netmagicsolutions.com/assets/_images/banner/banner-home-main.png" alt="16 years of Netmagic" /></a>
-            <div class="banner-links-left">
-                <a href="/co-location-services" class="colocation"></a>
-                <a href="/infrastructure-management-services" class="ims"></a>
-                <a href="/managed-dedicated-servers-hosting-in-india.html" class="managed"></a>
-            </div>
-
-      <a class="hm-call-to-action" href="/about-us.html">Our Story So Far...</a>
-
-            <div class="banner-links-right">
-                <a href="/cloud-infrastructure-services" class="cloud"></a>
-                <a href="/disaster-recovery-services" class="dr"></a>
-                <a href="/managed-storage-services" class="storage"></a>
-                <a href="/managed-security-services" class="security"></a>
-            </div>
-        </div><!--/.banner-image -->
+        <div class="flexslider">
+          <ul class="slides">
+            <li>
+              <img src="assets/_images/banner/Smart-for-infrastructure-hm-banner.jpg" />
+            </li>
+            <li>
+              <img src="assets/_images/banner/top-stats-hm-banner-2.jpg" />
+            </li>
+            <!-- items mirrored twice, total of 12 -->
+          </ul>
+        </div>
       </li>
     </ul>
   <div class="promo-container">
@@ -178,6 +172,15 @@
   <!-- This is the script that actually validates the fields -->
   <script type="text/javascript" src="/assets/_js/validify.js"></script>
   <script type="text/javascript" src="/assets/_js/plugins.js"></script>
+
+  <script>
+    $(window).load(function() {
+      $('.flexslider').flexslider({
+        animation: "fade",
+        itemWidth: 210
+      });
+    });
+  </script>
 
 </body>
 </html>
