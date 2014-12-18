@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="/assets/_css/flexslider.css">
   <link rel="stylesheet" href="/assets/_css/style-v2.css">
   <link rel="stylesheet" href="/assets/_css/style-v3.css">
+  <link rel="stylesheet" href="/assets/_css/home.css">
 </head>
 <body class='home'>
   <header>
@@ -65,12 +66,14 @@
         <div class="flexslider">
           <ul class="slides">
             <li>
+              <img src="assets/_images/banner/top-stats-hm-banner-2.jpg" />
+            </li>
+            <li>
               <img src="assets/_images/banner/Smart-for-infrastructure-hm-banner.jpg" />
             </li>
             <li>
-              <img src="assets/_images/banner/top-stats-hm-banner-2.jpg" />
+              <img src="assets/_images/banner/new-ideas-hm-banner.jpg" />
             </li>
-            <!-- items mirrored twice, total of 12 -->
           </ul>
         </div>
       </li>
@@ -177,7 +180,8 @@
     $(window).load(function() {
       $('.flexslider').flexslider({
         animation: "fade",
-        itemWidth: 210
+        itemWidth: 210,
+        itemHeight: 508
       });
     });
   </script>
